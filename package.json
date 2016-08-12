@@ -5,6 +5,7 @@
   "author": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm install",
     "start": "node server",
     "dev": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
     "build": "rimraf public && cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --progress --profile --colors",
