@@ -6,8 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server",
-    "postinstall": "npm install",
-    "build": "cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --progress --profile --colors",
+    "postinstall": "cross-env NODE_ENV=production webpack --config ./webpack.production.config.js --progress --profile --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",
